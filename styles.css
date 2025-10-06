@@ -758,6 +758,32 @@ section {
     color: var(--primary-blue-light);
 }
 
+.nap-info {
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--secondary-gray-dark);
+}
+
+.nap-info p {
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.6;
+}
+
+.nap-info strong {
+    color: var(--text-white);
+    font-size: var(--font-size-sm);
+}
+
+.nap-info a {
+    color: var(--primary-blue-light);
+    font-weight: 600;
+    font-size: var(--font-size-lg);
+}
+
+.nap-info a:hover {
+    color: var(--text-white);
+}
+
 .footer-bottom {
     border-top: 1px solid var(--secondary-gray-dark);
     padding-top: var(--spacing-md);
